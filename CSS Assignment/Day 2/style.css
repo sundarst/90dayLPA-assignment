@@ -1,0 +1,48 @@
+.container
+{
+    display: flex;
+    margin: 3px 5px;
+}
+.conatiner1
+{
+    width: 100%;
+    height: 150px;
+    border: 1px solid white;
+    background-color: lightcoral;
+   
+}
+.section
+{
+    width: 18%;
+    height: 180px;
+    background-color: lightgreen;
+    margin: 5px;
+    
+}
+
+.mainContainer
+{
+    display: flex;
+   
+}
+.main1
+{
+ width: 60%;
+ height: 250px;
+ background-color: lightcoral;
+
+}
+.main2
+{
+    width: 40%;
+    height: 250px;
+    background-color:rgb(140, 171, 244);
+    margin: 3px;
+}
+.footer
+{
+    width: 100%;
+    height: 150px;
+    background-color: lightblue;
+    margin: 5px;
+}
