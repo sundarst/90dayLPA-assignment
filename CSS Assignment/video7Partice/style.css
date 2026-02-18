@@ -1,0 +1,44 @@
+.container
+{
+    width: 800px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    border:1px solid black;
+    margin:0 auto;
+   
+}
+.box1
+{
+    box-sizing: border-box;  
+    /* box-sizing:content-box; */
+    width: 400px;
+    height:400px;
+    background-color:red;
+    border: 2px solid black;
+    padding: 5px;
+}
+.box2
+{
+    box-sizing: border-box; /* remove pading and border size*/
+     /* box-sizing:content-box; */ /*Not remove the boder and padding size then size is 400+2+5=407*/
+    width: 400px;
+    height: 400px;
+    background-color:yellow;
+    border: 2px solid black;
+    padding: 5px;
+}
+.box3
+{
+    width: 800px;
+    height: 400px;
+    background-color: lightcoral;
+}
+ul li
+{
+    display: inline-block;
+}
+ul ol
+{
+    display: inline-block;
+}
