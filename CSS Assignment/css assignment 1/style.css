@@ -1,0 +1,95 @@
+
+.container
+{
+  width: 600px;
+  height: 400px;
+  border: 1px solid black;
+  margin:10% auto;
+  background-color: black;
+}
+.button1
+{
+    width: 200px;
+    border: 1px solid red;
+    padding:20px;
+    margin:30px;
+    border-radius:10px;
+    color: red;
+    background-color:black;
+      font-size:medium;
+}
+.button2
+{
+    width: 200px;
+    border: 1px solid blue;
+    padding:20px;
+    margin: 30px;
+    border-radius: 30px;
+    color: white;
+     font-size:medium;
+background: repeating-linear-gradient(
+    to right,
+    #2ecc71 0%,
+    #2ecc71 25%,
+    #27ae60 25%,
+    #27ae60 50%
+);
+}
+.button3
+{
+    width: 200px;
+    border: 1px solid rgb(23, 183, 236);
+    padding:20px;
+    margin: 30px;
+    border-radius:10px;
+      font-size:medium;
+    color:white;
+    background-color:rgb(27, 178, 228);
+}
+.button4
+{
+    width: 200px;
+    border: 1px solid yellow;
+    padding:20px;
+    margin: 30px;
+    border-radius:10px;
+      font-size:medium;
+    background-color:black;
+    color:white;
+}
+.button5
+{
+    width: 200px;
+    border: 1px solid rgb(133, 2, 133);
+    padding:20px;
+    margin: 30px;
+    color:rgb(133, 2, 133);
+    font-size:medium;
+    background-color: black;
+}
+.button6
+{
+    width: 200px;
+    border: 1px solid green;
+    padding:20px;
+    margin: 30px;
+    border-radius:20px;
+    color: green;
+    font-weight: bold;
+    font-size:medium;
+    background: linear-gradient(
+        to bottom,
+        black 50%,
+        #27ae60 50%
+    );
+}
+
+/*
+✅ What is linear-gradient() ?
+
+It creates a color blending background.
+
+background: linear-gradient(direction, color1, color2);
+background: linear-gradient(to right, red, blue);
+
+*/

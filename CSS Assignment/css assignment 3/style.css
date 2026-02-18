@@ -1,0 +1,91 @@
+.mainDiv
+{
+    display: flex;
+
+}
+.leftDiv
+{
+    width: 1600px;
+    height: 400px;
+    background-color:darkorange;
+}
+
+.rightBlack
+{
+    width: 20%;
+    height: 300px;
+    background-color: black;
+    margin: 5px;
+  
+}
+.article
+{
+    display: flex;
+    gap: 10px;
+   
+   
+}
+.artivleOne
+{
+    width: 740px;
+    height: 80px;
+    background: yellow;
+     justify-content: start;
+      margin-top:10px;
+}
+.articleTwo
+{
+    width: 200px;
+    height: 80px;
+    background-color: green;
+     margin-top:10px;
+}
+.articleYellow
+{
+    width: 260px;
+    height: 90px;
+    background-color:darkorange;
+   
+    
+}
+.articleRed
+{
+    width: 300px;
+    height: 90px;
+    background-color:red;
+}
+.articleRight
+{
+    display: flex;
+    width: 940px;
+   
+}
+.footer
+{
+    display: flex;
+}
+.footerRed
+{
+    width: 70%;
+    height: 220px;
+    background-color: red;
+    margin: 5px;
+}
+.footerRight
+{
+    width: 35%;
+}
+.footerRightOne
+{
+    width: 105%;
+    height: 100px;
+    background-color: greenyellow;
+    margin: 15px;
+}
+.footerRightTwo
+{
+    width: 105%;
+    height: 100px;
+    background-color:blue;
+    margin: 15px;
+}
