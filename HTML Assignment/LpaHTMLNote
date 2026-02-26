@@ -1,0 +1,119 @@
+1)<!DocType> is not an HTML tag — it’s an instruction to the browser.
+
+-->It tells the browser which version of HTML the page is using.
+
+2)What happens if you don’t use it?
+
+--> CSS layouts may break
+
+--> Margins, padding, box model may behave differently
+
+--> Page may look different in different browsers 😵
+
+3)Real-life example 🧠
+
+--> Think of <!DOCTYPE> like a rule book 📘
+
+--> With rule book → everyone plays correctly
+
+--> Without rule book → players follow old rules 😅
+
+Always start HTML with <!DOCTYPE html> to avoid layout bugs and browser issues.
+
+====================================================================================
+<form></form> tag
+he <form> tag is used to collect user input and send it to a server.
+
+1)What problem does <form> solve?
+
+Without <form>:
+================
+---> Inputs are just text boxes
+
+---> Browser doesn’t know what to send
+
+---> Browser doesn’t know where to send
+
+With <form>:
+============
+---> Browser groups inputs 📦
+
+---> Sends data in a proper format
+
+---> Can submit data automatically
+
+with form collect the  group of input tag data send to server automaticaly with help of URL
+Without form we can not group data can not send to server automaticaly
+
+<label></label> and radio button
+==================================
+1)a piece of paper, etc. that is fixed to something and which gives information about it.
+2)Screen reader users  (will read out loud the label, when the user is focused on the element)
+
+3)Users who have difficulty clicking on very small regions (such as checkboxes) - because 
+                 when a user clicks the text within the <label> element, it toggles the input (this increases the hit area). 
+
+4)Why clicking the label does NOT select the radio button?
+Because for in <label> is NOT connected to any input id.
+
+checkBox
+============
+Checkboxes are used to let a user select one or more options of a limited number of choices.
+
+============================
+<textarea></textarea>
+If we use form to submit, why is name attribute needed?
+--->When a form is submitted, only elements with a name attribute are sent to the server.
+
+👉 If there is no name, the browser will NOT send that field’s data.
+
+<form action="/save" method="post">
+    <textarea name="comment"></textarea>
+    <button type="submit">Submit</button>
+</form>
+
+String comment = request.getParameter("comment");
+
+*)id="comment" → connects label
+
+*)name="comment" → sends data to backend
+
+ ---> a multi-line text input control.
+ ---> The size of a text area is specified by the cols and rows attributes (or with CSS).
+ ---> A text area can hold an unlimited number of characters, and the text renders in a fixed-width font 
+ 
+ ============================
+ <select></select>
+ The <select> element is used to create a drop-down list.
+ , to collect user input.
+If we use form to submit, why is name attribute needed?
+--->When a form is submitted, only elements with a name attribute are sent to the server.
+
+👉 If there is no name, the browser will NOT send that field’s data.
+
+The <option> tags inside the <select> element define the available options in the drop-down list.
+
+The id attribute is needed to associate the drop-down list with a label.
+
+==============================
+What are Semantic Elements?
+---> A semantic element clearly describes its meaning to both the browser and the developer.
+
+---> Examples of non-semantic elements: <div> and <span> - Tells nothing about its content.
+
+Examples of semantic elements: <img>, <table>, and <article> - Clearly defines its content.
+Many web sites contain HTML code like: <div id="nav"> <div class="header"> <div id="footer"> 
+to indicate navigation, header, and footer
+
+==============
+<video></video>
+The <video> tag is used to embed video content in a document, such as a movie clip or other video streams.
+
+🔹 Is type compulsory?
+
+❌ Not strictly required
+✅ But recommended (best practice)
+
+If you remove type, browser will still try to detect format from file,
+but giving type makes loading faster and more efficient.
+ 
